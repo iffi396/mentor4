@@ -1,0 +1,43 @@
+article {
+	border: 1px solid black;
+	width: 100px;
+	padding: 10px;
+	border-radius: 2px;
+	font-weight: bold;
+}
+div	{
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	margin: 12px;
+	position: relative;
+}
+.red {
+	color: #b33c2f;
+	font-weight: bold;
+}
+.grey {
+	color: #96959a;
+}
+.blue {
+	color: #3082d2;
+}
+.back {
+	background-color: #fef8f2;
+	border: 2px solid #eb8e52;
+}
+.a {
+	top:160px;
+}
+.b, .c {
+	top: 217px;
+}
+.d {
+	top: 193px;
+}
+.e {
+	top: 198px;
+}
+.f {
+	top: 180px;
+}

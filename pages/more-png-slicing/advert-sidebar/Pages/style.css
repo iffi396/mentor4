@@ -1,0 +1,28 @@
+div {
+	height: 320px;
+	width: 300px;
+	background-color: #fefcda;
+}
+#grey {
+	color: grey;
+	font-weight: bold;
+	border-bottom: 1px solid grey;
+}
+span {
+	display: block;
+	padding: 10px;
+}
+a {
+	text-decoration: none;
+	color: #0870d4;
+	font-weight: bold;
+}
+p {
+	display: inline-block;
+	padding: 5px;
+	margin: 0px;
+}
+#grey1 {
+	color: grey;
+	font-weight: bold;
+}

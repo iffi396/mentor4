@@ -1,0 +1,11 @@
+button {
+	background-color: green;
+	border: none;
+	padding: 20px 40px;
+	color: white;
+	font-weight: bold;
+
+}
+html, body {
+	background-color:black;
+}

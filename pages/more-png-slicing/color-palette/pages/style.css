@@ -1,0 +1,50 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+section {
+	height: 500px;
+	position: absolute;
+	width: 350px;
+}
+p {
+	margin-top: 0px;
+	margin-bottom: 60px;
+}
+.right {
+	float: right;
+}
+div	{
+	padding: 15px;
+}
+.a {
+	background-color: #fef11a;
+}
+.b {
+	background-color: #fefee6;
+}
+.c {
+	background-color: #fefdc2;
+}
+.d {
+	background-color: #fdfa97;
+}
+.e {
+	background-color: #fdf76b;
+}
+.f {
+	background-color: #fef448;
+}
+.g {
+	background-color: #fef11a;
+}
+.h {
+	background-color: #ffdc06;
+}
+.i {
+	background-color: #ffc101;
+}
+.j {
+	background-color: #ffa500;
+}

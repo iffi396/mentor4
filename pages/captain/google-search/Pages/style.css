@@ -1,0 +1,32 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	
+}
+div	{
+	border: 0.5px groove;
+	padding: 10px; 
+}
+.url {
+	margin-top: 0px;
+	color: #407037;
+}
+a {
+	color: #4049b2;
+	text-decoration: none;
+}
+.abc {
+	font-size:20px;
+}
+.acb:visited, .abc:visited {
+	color: #4049b2;
+}
+.f {
+	float: right;
+	color: #a8a8a8;
+}
+.top {
+	color: #a8a8a8;
+}
+/*.bold {
+	font-weight: bold;
+}*/

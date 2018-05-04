@@ -1,0 +1,46 @@
+html, body {
+	font-family: 'Indie Flower', cursive;
+}
+div	{
+	display: inline-block;
+	background-color:  #333;
+	padding: 15px;
+}
+h1 {
+	color: white;
+	margin-bottom: 0px;
+	background-color: #4CAF50;
+	padding: 10px;
+}
+h3 {
+	color: white;
+	margin: 0px;
+}
+a {
+	text-decoration: none;
+	padding: 5px;
+}
+ul > li {
+	font-weight: bold;
+}
+a:active,
+a:visited,
+a:link
+{
+	color: white;
+}
+a:hover {
+	background-color: #4CAF50;
+	color: white;
+	padding-right: 50%;
+	transition-duration: 1s;
+	-webkit-box-shadow: 10px 10px 10px 0px rgba(77,77,77,1);
+	-moz-box-shadow: 10px 10px 10px 0px rgba(77,77,77,1);
+	box-shadow: 10px 10px 10px 0px rgba(77,77,77,1);
+}
+li	{
+	color: white;
+	padding: 5px;
+	/*font-weight: bold;*/
+	font-size:20px;
+}

@@ -1,0 +1,54 @@
+span {
+	font: 200px solid;
+	display: inline-block;
+	padding-top: 200px;
+}
+#g {
+	color: #4285f4;
+	padding-left: 500px;
+}
+#o {
+	color: #ea4335;
+}
+#o2 {
+	color: #fbbc05;
+}
+#g2 {
+	color: #4285f4;
+}
+#l {
+	color: #34a853;
+}
+#e {
+	color: #ea4335;
+}
+input	{
+	padding: 5px 600px 5px 5px;
+	font-size: 20px;
+	margin-left: 540px;
+
+}
+#b1 {
+	padding: 5px 16px 5px 16px;
+	font-size: 13px;
+	font-weight: 700px;
+	margin-left: 750px;
+	margin-top: 5px;
+	background-color: #f3f3f3;
+	border-style: solid;
+	font-style: solid;
+
+
+}
+#b2 {
+	padding: 5px 16px 5px 16px;
+	font-size: 13px;
+	font-weight: 700px;
+	margin-left: 10px;
+	margin-top: 5px;
+	background-color: #f3f3f3;
+	border-style: solid;
+	font-style: solid;
+
+
+}

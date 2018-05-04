@@ -1,0 +1,62 @@
+body {
+	margin: 50px;
+	font-family: 'Roboto', sans-serif;
+}
+div {
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+	display: inline-block;
+	padding-bottom: 20px;
+}
+img {
+	width: 500px;
+}
+
+article, span {
+	padding: 0px 0px 45px 45px;
+	width: 400px;
+}
+h4 {
+	color:#b2b2b4;
+	margin-bottom: 10px;
+}
+h1 {
+	font-size: 30px;
+	font-weight: bold;
+	margin: 0px;
+}
+p {
+	font-size: 19px;
+	line-height: 30px;
+}
+span {
+	font-size: 25px;
+}
+
+a:link,
+a:active,
+a:visited,
+a:hover  {
+    color: #00c323;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*If this Document Is Page So It's Size Is Mentioned Bellow...*/
+/*html,body {
+    height:297mm;
+    width:210mm;
+}*/
+
+
+
