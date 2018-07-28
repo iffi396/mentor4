@@ -1,62 +1,400 @@
-.ad {
-    background-color: gray;
-    font-size: 50px;
-    font-family: 'Indie Flower', cursive;
-    margin: 10px;
-    padding: 100px 30px;
-    display: inline-block;
-    text-align: center;
-    position: relative;
-    left: 34%;
+@media screen and (min-width: 1100px) {
+
+body {
+	background: #2b3137;
 }
-#page {
-    text-align: center;
-    font-family: 'Indie Flower', cursive;
-    padding: 50px;
+.fa-github {
+	font-size: 35px;
+	color: #ffffff;
 }
-#main {
-    background-color: gray;
-    color: white;
+.fa-bars {
+	display: none !important;
+}
+.ham-bar {
+	display: inline-block;
+}
+.search-bar {
+	background-color: #404448;
+	border: 1px solid black;
+	margin-left: 60px;
+
 }
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+	margin:15px 5%;
 }
-
 li {
-    float: left;
+	display: inline-block;
+	color: white;
+	font-size: 15px;
+	padding: 0 10px;
 }
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+em,
+.hov:hover {
+	color: #979da3;
+}
+.hard {
+	font-weight: bold;
+}
+.hov:hover,
+.hard:hover {
+	cursor: pointer;
+}
+.container {
+	padding: 128px 0px;
+}
+label,
+.info,
+.btn-success {
+	display:block;
+}
+.white,
+.white:hover,
+.white:active,
+.white:visited {
+	color: white;
+}
+.container {
+	float: center;
+}
+.heading {
+	width: 52%;
+	padding: 24px;
+	position: relative;
+	top: 40px;
+	left: 100px;
 }
 
-li a:hover,
-li a:active {
-    background-color: #4CAF50;
+section,
+h1,
+.heading,
+.sign-up,
+.fa-github {
+	display: inline-block;
 }
-input {
-    padding: 5px;
-    font-size: 15px;
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 72px;
+	color: white;
+}
+span {
+	color: #a2abad;
+	font-size: 26px;
 }
 button {
-    padding: 5px 30px;
-    font-size: 20px;
-    background-color: #333;
-    color: white;
+	width: 100%;
+	height: 43px;
+	padding: 10px;
+	font-weight: 300;
+}
+.info {
+	border-radius: 5px;
+	border: 1px solid #d1d5da;
+	width: 100%;
+	height: 43px;
+	padding: 10px;
+	color: #d1d5da;
+}
+label {
+	margin-top: 15px;
+}
+p {
+	font-size: 13px;
+	margin-top: 5px;
+}
+label,
+p {
+		color: #6a737d;
+}
+.center {
+	text-align: center;
+}
+.sign-up {
+	width: 35%;
+	margin: 20px;
+	background-color: #fafbfc;
+	padding: 10px 25px;
+	border-radius: 4px;
+	float: right;
+}
+}
+
+
+
+
+
+
+@media screen and (max-width:1099px) {
+
+body {
+	background: #2b3137;
+}
+.fa-bars:hover = .ham-bar{
+	display: block;
+}
+.fa-github,
+.bar
+   {
+	font-size: 35px;
+	color: #ffffff;
+	display: inline-block;
+	margin-top: 20px;
+}
+.bar {
+	float: right;
+	padding-right: 40px;
+}
+.ham-bar > li {
+	display: none;
+	font-size: 20px;
+	font-weight: 300;
+	border-top: 1px solid #444d56;
+	padding:30px 100% 30px 10px; 
+}
+.search-bar {
+	background-color: #404448;
+	border: 1px solid black;
+	margin-left: 60px;
 
 }
-button:hover {
-    background-color: #4CAF50;
-    cursor: pointer;
-    transition-duration: 0.5s;
-    -webkit-box-shadow: 10px 10px 10px 0px rgba(77,77,77,1);
-    -moz-box-shadow: 10px 10px 10px 0px rgba(77,77,77,1);
-    box-shadow: 10px 10px 10px 0px rgba(77,77,77,1);
+.hov,
+.hard,
+em,
+.search-bar {
+	display:none;
 }
+li {
+	display: inline-block;
+	color: white;
+	font-size: 15px;
+	padding: 0 10px;
+}
+
+em,
+.hov:hover {
+	color: #979da3;
+}
+.hard {
+	font-weight: bold;
+}
+.hov:hover,
+.hard:hover {
+	cursor: pointer;
+}
+.container {
+	padding: 128px 0px;
+}
+label,
+.info,
+.btn-success {
+	display:block;
+}
+.white,
+.white:hover,
+.white:active,
+.white:visited {
+	color: white;
+}
+.container {
+	float: center;
+}
+.heading {
+	width: 52%;
+	padding: 24px;
+	position: relative;
+	top: 40px;
+	left: 100px;
+}
+
+section,
+h1,
+.heading,
+.sign-up,
+.fa-github {
+	display: inline-block;
+}
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 72px;
+	color: white;
+}
+span {
+	color: #a2abad;
+	font-size: 26px;
+}
+button {
+	width: 100%;
+	height: 43px;
+	padding: 10px;
+	font-weight: 300;
+}
+.info {
+	border-radius: 5px;
+	border: 1px solid #d1d5da;
+	width: 100%;
+	height: 43px;
+	padding: 10px;
+	color: #d1d5da;
+}
+label {
+	margin-top: 15px;
+}
+p {
+	font-size: 13px;
+	margin-top: 5px;
+}
+label,
+p {
+		color: #6a737d;
+}
+.center {
+	text-align: center;
+}
+.sign-up {
+	width: 35%;
+	margin: 20px;
+	background-color: #fafbfc;
+	padding: 10px 25px;
+	border-radius: 4px;
+	float: right;
+}
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1000px) {
+
+body {
+	background: #2b3137;
+}
+.moto {
+	float: center;
+	text-align: center;
+	display: block;
+	margin: 10%;
+}
+.fa-github,
+.bar
+   {
+	display: none;
+	font-size: 35px;
+	color: #ffffff;
+	display: inline-block;
+	margin-top: 20px;
+}
+.bar {
+	float: right;
+	padding-right: 40px;
+}
+.bar:hover
+.hov,
+.hard,
+em,
+.search-bar {
+	display: block;
+	font-size: 20px;
+	font-weight: 300;
+	border-top: 1px solid #444d56;
+	padding:30px 100% 30px 10px; 
+}
+.search-bar {
+	background-color: #404448;
+	border: 1px solid black;
+	margin-left: 60px;
+
+}
+.hov,
+.hard,
+em,
+.search-bar {
+	display:none;
+}
+li {
+	display: inline-block;
+	color: white;
+	font-size: 15px;
+	padding: 0 10px;
+}
+
+em,
+.hov:hover {
+	color: #979da3;
+}
+.hard {
+	font-weight: bold;
+}
+.hov:hover,
+.hard:hover {
+	cursor: pointer;
+}
+.container {
+	padding: 128px 0px;
+}
+label,
+.info,
+.btn-success {
+	display:block;
+}
+.white,
+.white:hover,
+.white:active,
+.white:visited {
+	color: white;
+}
+.container {
+	float: center;
+}
+.fa-github {
+	display: inline-block;
+}
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 72px;
+	color: white;
+}
+span {
+	color: #a2abad;
+	font-size: 26px;
+}
+button {
+	width: 100%;
+	height: 43px;
+	padding: 10px;
+	font-weight: 300;
+}
+.info {
+	border-radius: 5px;
+	border: 1px solid #d1d5da;
+	width: 100%;
+	height: 43px;
+	padding: 10px;
+	color: #d1d5da;
+}
+label {
+	margin-top: 15px;
+}
+p {
+	font-size: 13px;
+	margin-top: 5px;
+}
+label,
+p {
+		color: #6a737d;
+}
+.center {
+	text-align: center;
+}
+.sign-up {
+	display: block;
+	margin: 0px 30%;
+	background-color: #fafbfc;
+	padding: 10px 25px;
+	border-radius: 4px;
+}
+}
+
+
+

@@ -1,92 +1,119 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-
-	<link rel="stylesheet" type="text/css" href="Style.css">
-	<title>Sign Up</title>
+	<title>Sign Up Assignments</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 </head>
 <body>
-	<HEADER id="main">
-	  <center>
-		<h1>
-			Sign Up
-		</h1>
-	  </center>
-	</HEADER>
-	
-		<ul style="position: sticky;">	
+	<div class="nav-container">
+		<ul>
 			<li>
-				<a target="_blank" href="..\..\index.html"  class="abc"> HOME </a>
-			</li>	
-			<li>
-				<a target="_blank" href="..\main-page\index.html"  class="abc">
-					 HACKATHONE TASK
+				<a href="#">
+					<i class="fab fa-github"></i>
+				</a>	
+			</li>
+				<a href="#">
+					<i class="bar fas fa-bars"></i>
 				</a>
-			</li>	
-			<li>
-				<a target="_blank" href="..\online-shop-project\online-shop-project\Main-page.html"> ONLINE SHOP PROJECT </a>
+		<div class="ham-bar">
+			<li class="hov">
+				Features
 			</li>
-			<li>
-				<a target="_blank" href="..\Google-Design\google.html"> PROJECT GOOGLE DESIGN </a>
+		</div>
+		<div class="ham-bar">
+			<li class="hov">
+				Business
 			</li>
-			<li>
-				<a target="_blank" href="..\Assignments\index.html"> ASSIGNMENTS </a>
+		</div>
+		<div class="ham-bar">
+			<li class="hov">
+				Explore
 			</li>
-			<li>
-				<a target="_blank" href="Sign-Up.html"> SIGN UP </a>
+		</div>
+		<div class="ham-bar">
+			<li class="hov">
+				Marketplace
 			</li>
+		</div>
+		<div class="ham-bar">
+			<li class="hov">
+				Pricing				
+			</li>
+		</div>
+		<div class="ham-bar">
 			<li>
-				<a target="_blank" href="..\Contect-Me\Contect-me.html"> CONTACT ME.</a>
-			</li>		
-		</ul>	
-	<h1 id="page">
-		Sign Up Here
-	</h1>
-	
-
-	<div class="ad">
-
-
-		<label>
-			Full Name:
-		</label>
-		<input type="text" name="Full Name" placeholder="Full Name Here">
-<br>
-		<label>
-				Email:
-		</label>
-		<input type="Text" name="Email" placeholder="Email Address">
-<br>
-		<label>
-				Phone Number:
-		</label>
-		<input type="number" name="Phone Number" placeholder="Phone Number">
-<br>
-		<label>
-				Date OF Birth:
-		</label>
-		<input type="Date" name="Date Of Birth" placeholder="Date Of Birth">
-		<label>
-<br>
-		<label>
-			Password
-		</label>
-		<input type="password" name="password" placeholder="Password">
-		<label>
-			
-		<a href="thank you.html">
-<br>
-			<button>
-				Sign Up !
-			</button>
-		</a>	
-
+				<input class="search-bar" type="text" name="search" placeholder="Search GitHub">
+			</li>
+		</div>
+		<div class="ham-bar">
+			<li class="hard">
+				Sign In
+			</li>
+		</div>
+		<div class="ham-bar">
+			<em>
+				or
+			</em>
+		</div>
+		<div class="ham-bar">
+			<li class="hard">
+				Sign Up
+			</li>
+		</div>	
+		</ul>
 	</div>
 
-
-
-
+	<div class="container">
+		<article class="group">
+			<section class="moto heading">
+				<h1>
+					Built for developers
+				</h1>
+				<span class="moto">
+					GitHub is a development platform inspired by the way you work. From 
+					<a href="#" class="white">
+						open source
+					</a>
+					 to 
+					 <a href="#" class="white">
+						business
+					 </a>
+					 , you can host and review code, manage projects, and build software alongside millions of other developers.
+				</span>
+			</section>
+			<section class="sign-up">
+				<label>
+					username
+				</label>
+				<input class="info" type="text" name="username" placeholder="Pick a Username">
+				<label>
+					Email
+				</label>
+				<input class="info" type="text" name="Email" placeholder="you@example.com">
+				<label>
+					Password
+				</label>
+				<input class="info" type="Password" name="Password" placeholder="Create a Password">
+				<p>
+					Use at least one letter, one numeral, and seven characters.
+				</p>
+				<button type="button" class="btn btn-success">Sign up for GitHu</button>
+				<p class="center">
+					By clicking “Sign up for GitHub”, you agree to our 
+				<a href="#">
+					terms of service
+				</a>					 	
+					and
+				<a href="#">
+					privacy statement.	
+				</a>
+					We’ll occasionally send you account related emails.
+				</p>
+			</section>
+		</article>
+	</div>
 </body>
 </html>
